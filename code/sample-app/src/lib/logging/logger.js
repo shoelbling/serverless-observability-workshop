@@ -92,7 +92,7 @@ exports.putMetric = async (name, unit = MetricUnit.Count, value = 0, options) =>
  * because the processing application is designed with a RegEx based on default loggers. 
  * 
  * @example
- * Logs metric to count the number of successful item retrievals using default dimensions and namepsace.
+ * Logs metric to count the number of successful item retrievals using default dimensions and namespace.
  * logMetric(name = 'SuccessfulGetItem', unit = MetricUnit.Count, value = 1)
  * // Dimensions included: {service: 'service_undefined'} 
  * // Namespace used: MonitoringApp
